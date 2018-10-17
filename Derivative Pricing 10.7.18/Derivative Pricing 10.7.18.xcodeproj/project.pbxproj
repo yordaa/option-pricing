@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE96B94216AC36D006E8030 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96B93216AC36D006E8030 /* main.cpp */; };
+		0EE96B9F216B3C39006E8030 /* MCStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96B9E216B3C39006E8030 /* MCStatistics.cpp */; };
+		0EE96BA2216B3C45006E8030 /* SimpleMC7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BA1216B3C45006E8030 /* SimpleMC7.cpp */; };
+		0EE96BA5216B3C4E006E8030 /* Vanilla3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BA4216B3C4E006E8030 /* Vanilla3.cpp */; };
+		0EE96BA8216B3C59006E8030 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BA7216B3C59006E8030 /* Parameters.cpp */; };
+		0EE96BAB216B3C6C006E8030 /* Random1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BAA216B3C6C006E8030 /* Random1.cpp */; };
+		0EE96BAE216B3C78006E8030 /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */; };
+		0EE96BB1216B3C83006E8030 /* Payoff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB0216B3C83006E8030 /* Payoff3.cpp */; };
+		0EE96BB4216BC0F5006E8030 /* PayOffFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB3216BC0F5006E8030 /* PayOffFactory.cpp */; };
+		0EE96BB7216BC100006E8030 /* PayOffRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB6216BC100006E8030 /* PayOffRegistration.cpp */; };
+		0EE96BBB216C2778006E8030 /* PricingVanilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB9216C2778006E8030 /* PricingVanilla.cpp */; };
+		0EE96BBE216C795D006E8030 /* PricingDigital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BBD216C795D006E8030 /* PricingDigital.cpp */; };
+		0EE96BC2216C83BB006E8030 /* PricingDoubleDigital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BC0216C83BB006E8030 /* PricingDoubleDigital.cpp */; };
+		0EE96BC5216C9C75006E8030 /* AntiThetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BC4216C9C75006E8030 /* AntiThetic.cpp */; };
+		0EE96BC8216C9CAC006E8030 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BC7216C9CAC006E8030 /* Array.cpp */; };
+		0EE96BCB216C9CB8006E8030 /* ConvergenceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BCA216C9CB8006E8030 /* ConvergenceTable.cpp */; };
+		0EE96BCE216C9CC5006E8030 /* ExoticBSEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BCD216C9CC5006E8030 /* ExoticBSEngine.cpp */; };
+		0EE96BD1216C9CD8006E8030 /* ExoticEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BD0216C9CD8006E8030 /* ExoticEngine.cpp */; };
+		0EE96BD4216C9CE7006E8030 /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BD3216C9CE7006E8030 /* Normals.cpp */; };
+		0EE96BD7216C9CFA006E8030 /* ParkMiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BD6216C9CFA006E8030 /* ParkMiller.cpp */; };
+		0EE96BDA216C9D07006E8030 /* PathDependent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BD9216C9D07006E8030 /* PathDependent.cpp */; };
+		0EE96BDD216C9D23006E8030 /* PathDependentAsian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BDC216C9D23006E8030 /* PathDependentAsian.cpp */; };
+		0EE96BE0216C9D39006E8030 /* Random2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BDF216C9D39006E8030 /* Random2.cpp */; };
+		0EE96BE4216C9D79006E8030 /* PricingAsian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BE3216C9D79006E8030 /* PricingAsian.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EE96B8E216AC36D006E8030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0EE96B90216AC36D006E8030 /* Derivative Pricing 10.7.18 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Derivative Pricing 10.7.18"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE96B93216AC36D006E8030 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0EE96B9D216B3C35006E8030 /* MCStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStatistics.h; sourceTree = "<group>"; };
+		0EE96B9E216B3C39006E8030 /* MCStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCStatistics.cpp; sourceTree = "<group>"; };
+		0EE96BA0216B3C3F006E8030 /* SimpleMC7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMC7.h; sourceTree = "<group>"; };
+		0EE96BA1216B3C45006E8030 /* SimpleMC7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC7.cpp; sourceTree = "<group>"; };
+		0EE96BA3216B3C4A006E8030 /* Vanilla3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vanilla3.h; sourceTree = "<group>"; };
+		0EE96BA4216B3C4E006E8030 /* Vanilla3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vanilla3.cpp; sourceTree = "<group>"; };
+		0EE96BA6216B3C54006E8030 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		0EE96BA7216B3C59006E8030 /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		0EE96BA9216B3C68006E8030 /* Random1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random1.h; sourceTree = "<group>"; };
+		0EE96BAA216B3C6C006E8030 /* Random1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random1.cpp; sourceTree = "<group>"; };
+		0EE96BAC216B3C74006E8030 /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
+		0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
+		0EE96BAF216B3C7E006E8030 /* Payoff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payoff3.h; sourceTree = "<group>"; };
+		0EE96BB0216B3C83006E8030 /* Payoff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Payoff3.cpp; sourceTree = "<group>"; };
+		0EE96BB2216BC0EF006E8030 /* PayOffFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffFactory.h; sourceTree = "<group>"; };
+		0EE96BB3216BC0F5006E8030 /* PayOffFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffFactory.cpp; sourceTree = "<group>"; };
+		0EE96BB5216BC0FB006E8030 /* PayOffConstructible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffConstructible.h; sourceTree = "<group>"; };
+		0EE96BB6216BC100006E8030 /* PayOffRegistration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffRegistration.cpp; sourceTree = "<group>"; };
+		0EE96BB8216C2628006E8030 /* PricingVanilla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricingVanilla.h; path = "Derivative Pricing 10.7.18/PricingVanilla.h"; sourceTree = "<group>"; };
+		0EE96BB9216C2778006E8030 /* PricingVanilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PricingVanilla.cpp; sourceTree = "<group>"; };
+		0EE96BBC216C7943006E8030 /* PricingDigital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricingDigital.h; path = "Derivative Pricing 10.7.18/PricingDigital.h"; sourceTree = "<group>"; };
+		0EE96BBD216C795D006E8030 /* PricingDigital.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PricingDigital.cpp; sourceTree = "<group>"; };
+		0EE96BBF216C8390006E8030 /* PricingDoubleDigital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricingDoubleDigital.h; path = "Derivative Pricing 10.7.18/PricingDoubleDigital.h"; sourceTree = "<group>"; };
+		0EE96BC0216C83BB006E8030 /* PricingDoubleDigital.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PricingDoubleDigital.cpp; path = "Derivative Pricing 10.7.18/PricingDoubleDigital.cpp"; sourceTree = "<group>"; };
+		0EE96BC3216C9C64006E8030 /* AntiThetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiThetic.h; sourceTree = "<group>"; };
+		0EE96BC4216C9C75006E8030 /* AntiThetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AntiThetic.cpp; sourceTree = "<group>"; };
+		0EE96BC6216C9CA6006E8030 /* Arrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
+		0EE96BC7216C9CAC006E8030 /* Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		0EE96BC9216C9CB2006E8030 /* ConvergenceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvergenceTable.h; sourceTree = "<group>"; };
+		0EE96BCA216C9CB8006E8030 /* ConvergenceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvergenceTable.cpp; sourceTree = "<group>"; };
+		0EE96BCC216C9CC0006E8030 /* ExoticBSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoticBSEngine.h; sourceTree = "<group>"; };
+		0EE96BCD216C9CC5006E8030 /* ExoticBSEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExoticBSEngine.cpp; sourceTree = "<group>"; };
+		0EE96BCF216C9CCF006E8030 /* ExoticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExoticEngine.h; sourceTree = "<group>"; };
+		0EE96BD0216C9CD8006E8030 /* ExoticEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExoticEngine.cpp; sourceTree = "<group>"; };
+		0EE96BD2216C9CE0006E8030 /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
+		0EE96BD3216C9CE7006E8030 /* Normals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		0EE96BD5216C9CF3006E8030 /* ParkMiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkMiller.h; sourceTree = "<group>"; };
+		0EE96BD6216C9CFA006E8030 /* ParkMiller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkMiller.cpp; sourceTree = "<group>"; };
+		0EE96BD8216C9D01006E8030 /* PathDependent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDependent.h; sourceTree = "<group>"; };
+		0EE96BD9216C9D07006E8030 /* PathDependent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathDependent.cpp; sourceTree = "<group>"; };
+		0EE96BDB216C9D18006E8030 /* PathDependentAsian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDependentAsian.h; sourceTree = "<group>"; };
+		0EE96BDC216C9D23006E8030 /* PathDependentAsian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathDependentAsian.cpp; sourceTree = "<group>"; };
+		0EE96BDE216C9D32006E8030 /* Random2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random2.h; sourceTree = "<group>"; };
+		0EE96BDF216C9D39006E8030 /* Random2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random2.cpp; sourceTree = "<group>"; };
+		0EE96BE1216C9D42006E8030 /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		0EE96BE2216C9D58006E8030 /* PricingAsian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricingAsian.h; path = "Derivative Pricing 10.7.18/PricingAsian.h"; sourceTree = "<group>"; };
+		0EE96BE3216C9D79006E8030 /* PricingAsian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PricingAsian.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE96B8D216AC36D006E8030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE96B87216AC36D006E8030 = {
+			isa = PBXGroup;
+			children = (
+				0EE96BC3216C9C64006E8030 /* AntiThetic.h */,
+				0EE96BC4216C9C75006E8030 /* AntiThetic.cpp */,
+				0EE96BC6216C9CA6006E8030 /* Arrays.h */,
+				0EE96BC7216C9CAC006E8030 /* Array.cpp */,
+				0EE96BC9216C9CB2006E8030 /* ConvergenceTable.h */,
+				0EE96BCA216C9CB8006E8030 /* ConvergenceTable.cpp */,
+				0EE96BCC216C9CC0006E8030 /* ExoticBSEngine.h */,
+				0EE96BCD216C9CC5006E8030 /* ExoticBSEngine.cpp */,
+				0EE96BCF216C9CCF006E8030 /* ExoticEngine.h */,
+				0EE96BD0216C9CD8006E8030 /* ExoticEngine.cpp */,
+				0EE96B9D216B3C35006E8030 /* MCStatistics.h */,
+				0EE96B9E216B3C39006E8030 /* MCStatistics.cpp */,
+				0EE96BD2216C9CE0006E8030 /* Normals.h */,
+				0EE96BD3216C9CE7006E8030 /* Normals.cpp */,
+				0EE96BA6216B3C54006E8030 /* Parameters.h */,
+				0EE96BA7216B3C59006E8030 /* Parameters.cpp */,
+				0EE96BD5216C9CF3006E8030 /* ParkMiller.h */,
+				0EE96BD6216C9CFA006E8030 /* ParkMiller.cpp */,
+				0EE96BD8216C9D01006E8030 /* PathDependent.h */,
+				0EE96BD9216C9D07006E8030 /* PathDependent.cpp */,
+				0EE96BDB216C9D18006E8030 /* PathDependentAsian.h */,
+				0EE96BDC216C9D23006E8030 /* PathDependentAsian.cpp */,
+				0EE96BAF216B3C7E006E8030 /* Payoff3.h */,
+				0EE96BB0216B3C83006E8030 /* Payoff3.cpp */,
+				0EE96BAC216B3C74006E8030 /* PayOffBridge.h */,
+				0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */,
+				0EE96BB5216BC0FB006E8030 /* PayOffConstructible.h */,
+				0EE96BB6216BC100006E8030 /* PayOffRegistration.cpp */,
+				0EE96BB2216BC0EF006E8030 /* PayOffFactory.h */,
+				0EE96BB3216BC0F5006E8030 /* PayOffFactory.cpp */,
+				0EE96BE2216C9D58006E8030 /* PricingAsian.h */,
+				0EE96BE3216C9D79006E8030 /* PricingAsian.cpp */,
+				0EE96BBC216C7943006E8030 /* PricingDigital.h */,
+				0EE96BBD216C795D006E8030 /* PricingDigital.cpp */,
+				0EE96BBF216C8390006E8030 /* PricingDoubleDigital.h */,
+				0EE96BC0216C83BB006E8030 /* PricingDoubleDigital.cpp */,
+				0EE96BB8216C2628006E8030 /* PricingVanilla.h */,
+				0EE96BB9216C2778006E8030 /* PricingVanilla.cpp */,
+				0EE96BA9216B3C68006E8030 /* Random1.h */,
+				0EE96BAA216B3C6C006E8030 /* Random1.cpp */,
+				0EE96BDE216C9D32006E8030 /* Random2.h */,
+				0EE96BDF216C9D39006E8030 /* Random2.cpp */,
+				0EE96BA0216B3C3F006E8030 /* SimpleMC7.h */,
+				0EE96BA1216B3C45006E8030 /* SimpleMC7.cpp */,
+				0EE96BA3216B3C4A006E8030 /* Vanilla3.h */,
+				0EE96BA4216B3C4E006E8030 /* Vanilla3.cpp */,
+				0EE96BE1216C9D42006E8030 /* Wrapper.h */,
+				0EE96B92216AC36D006E8030 /* Derivative Pricing 10.7.18 */,
+				0EE96B91216AC36D006E8030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE96B91216AC36D006E8030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE96B90216AC36D006E8030 /* Derivative Pricing 10.7.18 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE96B92216AC36D006E8030 /* Derivative Pricing 10.7.18 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE96B93216AC36D006E8030 /* main.cpp */,
+			);
+			path = "Derivative Pricing 10.7.18";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE96B8F216AC36D006E8030 /* Derivative Pricing 10.7.18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE96B97216AC36D006E8030 /* Build configuration list for PBXNativeTarget "Derivative Pricing 10.7.18" */;
+			buildPhases = (
+				0EE96B8C216AC36D006E8030 /* Sources */,
+				0EE96B8D216AC36D006E8030 /* Frameworks */,
+				0EE96B8E216AC36D006E8030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Derivative Pricing 10.7.18";
+			productName = "Derivative Pricing 10.7.18";
+			productReference = 0EE96B90216AC36D006E8030 /* Derivative Pricing 10.7.18 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE96B88216AC36D006E8030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yuan Wang";
+				TargetAttributes = {
+					0EE96B8F216AC36D006E8030 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0EE96B8B216AC36D006E8030 /* Build configuration list for PBXProject "Derivative Pricing 10.7.18" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EE96B87216AC36D006E8030;
+			productRefGroup = 0EE96B91216AC36D006E8030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE96B8F216AC36D006E8030 /* Derivative Pricing 10.7.18 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE96B8C216AC36D006E8030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE96BAE216B3C78006E8030 /* PayOffBridge.cpp in Sources */,
+				0EE96BAB216B3C6C006E8030 /* Random1.cpp in Sources */,
+				0EE96BA8216B3C59006E8030 /* Parameters.cpp in Sources */,
+				0EE96B9F216B3C39006E8030 /* MCStatistics.cpp in Sources */,
+				0EE96BB1216B3C83006E8030 /* Payoff3.cpp in Sources */,
+				0EE96B94216AC36D006E8030 /* main.cpp in Sources */,
+				0EE96BA2216B3C45006E8030 /* SimpleMC7.cpp in Sources */,
+				0EE96BD1216C9CD8006E8030 /* ExoticEngine.cpp in Sources */,
+				0EE96BC2216C83BB006E8030 /* PricingDoubleDigital.cpp in Sources */,
+				0EE96BE4216C9D79006E8030 /* PricingAsian.cpp in Sources */,
+				0EE96BC5216C9C75006E8030 /* AntiThetic.cpp in Sources */,
+				0EE96BCE216C9CC5006E8030 /* ExoticBSEngine.cpp in Sources */,
+				0EE96BB4216BC0F5006E8030 /* PayOffFactory.cpp in Sources */,
+				0EE96BDA216C9D07006E8030 /* PathDependent.cpp in Sources */,
+				0EE96BBB216C2778006E8030 /* PricingVanilla.cpp in Sources */,
+				0EE96BBE216C795D006E8030 /* PricingDigital.cpp in Sources */,
+				0EE96BCB216C9CB8006E8030 /* ConvergenceTable.cpp in Sources */,
+				0EE96BD4216C9CE7006E8030 /* Normals.cpp in Sources */,
+				0EE96BE0216C9D39006E8030 /* Random2.cpp in Sources */,
+				0EE96BA5216B3C4E006E8030 /* Vanilla3.cpp in Sources */,
+				0EE96BB7216BC100006E8030 /* PayOffRegistration.cpp in Sources */,
+				0EE96BDD216C9D23006E8030 /* PathDependentAsian.cpp in Sources */,
+				0EE96BD7216C9CFA006E8030 /* ParkMiller.cpp in Sources */,
+				0EE96BC8216C9CAC006E8030 /* Array.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EE96B95216AC36D006E8030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0EE96B96216AC36D006E8030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0EE96B98216AC36D006E8030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EE96B99216AC36D006E8030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE96B8B216AC36D006E8030 /* Build configuration list for PBXProject "Derivative Pricing 10.7.18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE96B95216AC36D006E8030 /* Debug */,
+				0EE96B96216AC36D006E8030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE96B97216AC36D006E8030 /* Build configuration list for PBXNativeTarget "Derivative Pricing 10.7.18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE96B98216AC36D006E8030 /* Debug */,
+				0EE96B99216AC36D006E8030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EE96B88216AC36D006E8030 /* Project object */;
+}
