@@ -37,7 +37,7 @@ Size(original.Size), Capacity(original.Size)
 }
 MJArray::~MJArray()
 {
-    if (ValuesPtr >0)
+    if ((size_t) ValuesPtr >0)
         delete [] ValuesPtr;
 }
 MJArray& MJArray::operator=(const MJArray& original)
