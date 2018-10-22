@@ -14,7 +14,7 @@
 		0EE96BA8216B3C59006E8030 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BA7216B3C59006E8030 /* Parameters.cpp */; };
 		0EE96BAB216B3C6C006E8030 /* Random1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BAA216B3C6C006E8030 /* Random1.cpp */; };
 		0EE96BAE216B3C78006E8030 /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */; };
-		0EE96BB1216B3C83006E8030 /* Payoff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB0216B3C83006E8030 /* Payoff3.cpp */; };
+		0EE96BB1216B3C83006E8030 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB0216B3C83006E8030 /* PayOff3.cpp */; };
 		0EE96BB4216BC0F5006E8030 /* PayOffFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB3216BC0F5006E8030 /* PayOffFactory.cpp */; };
 		0EE96BB7216BC100006E8030 /* PayOffRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB6216BC100006E8030 /* PayOffRegistration.cpp */; };
 		0EE96BBB216C2778006E8030 /* PricingVanilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE96BB9216C2778006E8030 /* PricingVanilla.cpp */; };
@@ -60,8 +60,8 @@
 		0EE96BAA216B3C6C006E8030 /* Random1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random1.cpp; sourceTree = "<group>"; };
 		0EE96BAC216B3C74006E8030 /* PayOffBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffBridge.h; sourceTree = "<group>"; };
 		0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffBridge.cpp; sourceTree = "<group>"; };
-		0EE96BAF216B3C7E006E8030 /* Payoff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payoff3.h; sourceTree = "<group>"; };
-		0EE96BB0216B3C83006E8030 /* Payoff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Payoff3.cpp; sourceTree = "<group>"; };
+		0EE96BAF216B3C7E006E8030 /* PayOff3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOff3.h; sourceTree = "<group>"; };
+		0EE96BB0216B3C83006E8030 /* PayOff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff3.cpp; sourceTree = "<group>"; };
 		0EE96BB2216BC0EF006E8030 /* PayOffFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffFactory.h; sourceTree = "<group>"; };
 		0EE96BB3216BC0F5006E8030 /* PayOffFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayOffFactory.cpp; sourceTree = "<group>"; };
 		0EE96BB5216BC0FB006E8030 /* PayOffConstructible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOffConstructible.h; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 				0EE96BD9216C9D07006E8030 /* PathDependent.cpp */,
 				0EE96BDB216C9D18006E8030 /* PathDependentAsian.h */,
 				0EE96BDC216C9D23006E8030 /* PathDependentAsian.cpp */,
-				0EE96BAF216B3C7E006E8030 /* Payoff3.h */,
-				0EE96BB0216B3C83006E8030 /* Payoff3.cpp */,
+				0EE96BAF216B3C7E006E8030 /* PayOff3.h */,
+				0EE96BB0216B3C83006E8030 /* PayOff3.cpp */,
 				0EE96BAC216B3C74006E8030 /* PayOffBridge.h */,
 				0EE96BAD216B3C78006E8030 /* PayOffBridge.cpp */,
 				0EE96BB5216BC0FB006E8030 /* PayOffConstructible.h */,
@@ -205,7 +205,7 @@
 		0EE96B88216AC36D006E8030 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Yuan Wang";
 				TargetAttributes = {
 					0EE96B8F216AC36D006E8030 = {
@@ -240,7 +240,7 @@
 				0EE96BAB216B3C6C006E8030 /* Random1.cpp in Sources */,
 				0EE96BA8216B3C59006E8030 /* Parameters.cpp in Sources */,
 				0EE96B9F216B3C39006E8030 /* MCStatistics.cpp in Sources */,
-				0EE96BB1216B3C83006E8030 /* Payoff3.cpp in Sources */,
+				0EE96BB1216B3C83006E8030 /* PayOff3.cpp in Sources */,
 				0EE96B94216AC36D006E8030 /* main.cpp in Sources */,
 				0EE96BA2216B3C45006E8030 /* SimpleMC7.cpp in Sources */,
 				0EE96BD1216C9CD8006E8030 /* ExoticEngine.cpp in Sources */,
@@ -275,7 +275,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -283,7 +285,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -322,7 +329,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -330,7 +339,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +400,7 @@
 				0EE96B99216AC36D006E8030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

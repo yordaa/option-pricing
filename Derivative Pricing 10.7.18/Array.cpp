@@ -159,7 +159,7 @@ double MJArray::min() const
     {
         throw("cannot take min of empty array");
     }
-#endif RANGE_CHECKING
+#endif //RANGE_CHECKING
     double* tmp = ValuesPtr;
     double* endTmp = EndPtr;
     return *std::min_element(tmp,endTmp);
@@ -171,7 +171,7 @@ double MJArray::max() const
     {
         throw("cannot take max of empty array");
     }
-#endif RANGE_CHECKING
+#endif //RANGE_CHECKING
     double* tmp = ValuesPtr;
     double* endTmp = EndPtr;
     return *std::max_element(tmp,endTmp);

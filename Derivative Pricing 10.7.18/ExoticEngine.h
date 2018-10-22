@@ -8,7 +8,7 @@
 
 #ifndef EXOTIC_ENGINE_H
 #define EXOTIC_ENGINE_H
-#include "wrapper.h"
+#include "Wrapper.h"
 #include "Parameters.h"
 #include "PathDependent.h"
 #include "MCStatistics.h"

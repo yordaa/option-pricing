@@ -14,6 +14,7 @@ class RandomBase
 {
 public:
     RandomBase(unsigned long Dimensionality);
+    virtual ~RandomBase() {};
     inline unsigned long GetDimensionality() const;
     virtual RandomBase* clone() const=0;
     virtual void GetUniforms(MJArray& variates)=0;
